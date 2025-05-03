@@ -70,13 +70,13 @@ python3 scripts/visualize_latency.py
 
 ---
 
-## 📈 Output
+## Output
 - `benchmark/latency_report.csv`: Logs latency per order
 - Visual plots (latency histogram, TPS over time)
 
 ---
 
-## 📌 Key Metrics
+## Key Metrics
 
 - **Throughput**: 1.4M+ orders/sec
 - **Avg Latency**: <800ns (optimized)
@@ -84,7 +84,7 @@ python3 scripts/visualize_latency.py
 
 ---
 
-## 📁 Sample Input Format (orders.txt)
+## Sample Input Format (orders.txt)
 
 ```
 1 LIMIT BUY 100 305
@@ -94,7 +94,7 @@ python3 scripts/visualize_latency.py
 
 ---
 
-## ✅ Future Enhancements
+## Future Enhancements
 - Add support for Stop/Cancel/Modify
 - Multi-threaded I/O handling
 - Custom AVL or skip list for deeper control
